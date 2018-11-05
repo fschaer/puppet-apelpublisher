@@ -5,10 +5,7 @@
   "author": "kreczko",
   "description": "A Puppet module for the installation and setup of a Apel publisher",
   "dependencies": [
-    {
-      "name": "puppetlabs/mysql",
-      "version_requirement": "\u003e\u003d0.6.1"
-    }
+    { "name": "puppetlabs/mysql",     "version_requirement": ">=3.0.0 <7.0.0" }
   ],
   "types": [],
   "checksums": {},
